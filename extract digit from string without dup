@@ -3,5 +3,5 @@ o=[]
 for i in s:
     if i not in o:
         o.append(i)
-        if i.isalpha():
+        if i.isdigit():
                   print(i,end='')      
